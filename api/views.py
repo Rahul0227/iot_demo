@@ -68,9 +68,9 @@ class WeatherData(generics.ListAPIView):
         # database_id = dict_body['id']
         # container_id = dict_body['containername']
         for item in client.QueryItems("dbs/" + database_id + "/colls/" + container_id,
-                                'SELECT * FROM ' + container_id ,
+                                #'SELECT * FROM ' + container_id ,
                                 #'SELECT top 5 * FROM ' + container_id ,
-                                #'SELECT top 1 * FROM ' + container_id + " order by " + container_id + " ._ts desc " ,
+                                'SELECT top 1 * FROM ' + container_id + " order by " + container_id + " ._ts desc " ,
                                 #'SELECT * FROM ' + container_id + " WHERE " + container_id + " .temperature BETWEEN 20 AND 35 " ,
                                 #'SELECT * FROM ' + container_id + " WHERE " + container_id + " .temperature > 30 " ,
                                 #'SELECT * FROM ' + container_id + " WHERE " + container_id + " .temperature < 30 " , 
