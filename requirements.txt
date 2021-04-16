@@ -1,4 +1,4 @@
 Django==2.2.8
-django-debug-toolbar==2.1
+django-debug-toolbar==2.2.1
 djangorestframework==3.10.3
 azure-cosmos==3.1.2
