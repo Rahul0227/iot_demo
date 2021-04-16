@@ -2,7 +2,7 @@ azure-cosmos==3.1.2
 certifi==2019.11.28
 chardet==3.0.4
 Django==2.2.8
-django-debug-toolbar==2.1
+django-debug-toolbar==2.2.1
 djangorestframework==3.10.3
 idna==2.8
 pytz==2019.3
